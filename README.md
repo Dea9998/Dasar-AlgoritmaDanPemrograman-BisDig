@@ -18,3 +18,7 @@ posisi (indeks) dari nilai tertinggi di dalam list.
 kita tambahkan 1 agar sesuai dengan urutan siswa (siswa ke-1, ke-2, dst).
 - Misalnya, nilai 90 ada di indeks ke-2 
 (elemen ketiga), maka 2 + 1 = 3. Artinya, siswa ke-3 yang mendapat
+# CONTOH HASIL AKHIR
+nilai_siswa = [80, 76, 92, 85, 70]
+-  nilai_tertinggi = max(nilai_siswa) → 92
+- siswa_tertinggi = nilai_siswa.index(92) + 1 → 2 + 1 = 3
